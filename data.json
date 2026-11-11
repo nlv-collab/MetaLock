@@ -1,0 +1,1016 @@
+{
+  "version": "2026-11-11",
+  "heroes": [
+    {
+      "id": "abrams",
+      "name": "Abrams",
+      "gun": 1,
+      "spirit": 1,
+      "threats": { "heal": 2, "cc": 2, "mob": 1, "melee": 1, "tank": 1 },
+      "paths": [
+        {
+          "name": "Ближний бой",
+          "source": "удары кулаком и Siphon Life",
+          "damage": "melee",
+          "core": ["melee_lifesteal", "close_quarters", "melee_charge", "lifestrike", "fortitude", "crushing_fists", "colossus"]
+        }
+      ]
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "mob": 2, "burst": 1 },
+      "paths": [
+        {
+          "name": "Дуэльное комбо",
+          "source": "Riposte и ульта Itani Lo Sahn",
+          "damage": "spirit",
+          "core": ["extra_spirit", "mystic_burst", "improved_spirit", "tankbuster", "superior_cooldown", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "baba",
+      "name": "Baba",
+      "gun": 2,
+      "spirit": 2,
+      "threats": { "heal": 2, "chan": 1, "tank": 1, "dot": 1 },
+      "paths": [
+        {
+          "name": "Порча и варево",
+          "source": "Threadsap и Baba's Brew",
+          "damage": "spirit",
+          "core": ["extra_charge", "mystic_burst", "improved_spirit", "spirit_lifesteal", "superior_cooldown", "escalating_exposure"]
+        }
+      ]
+    },
+    {
+      "id": "bebop",
+      "name": "Bebop",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "cc": 2, "chan": 1, "parry": 1 },
+      "paths": [
+        {
+          "name": "Бомбы",
+          "source": "Sticky Bomb после крюка",
+          "damage": "spirit",
+          "core": ["extra_spirit", "mystic_burst", "sprint_boots", "improved_spirit", "tankbuster", "echo_shard", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "billy",
+      "name": "Billy",
+      "gun": 1,
+      "spirit": 1,
+      "threats": { "cc": 1, "melee": 1, "tank": 1 },
+      "paths": [
+        {
+          "name": "Драка вплотную",
+          "source": "удары, Rising Ram и Blasted",
+          "damage": "melee",
+          "core": ["melee_lifesteal", "close_quarters", "melee_charge", "lifestrike", "fortitude", "crushing_fists", "colossus"]
+        }
+      ]
+    },
+    {
+      "id": "calico",
+      "name": "Calico",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "heal": 1, "mob": 2, "melee": 1, "burst": 1 },
+      "paths": [
+        {
+          "name": "Наскок",
+          "source": "Leaping Slash и удары вблизи",
+          "damage": "spirit",
+          "core": ["melee_lifesteal", "spirit_strike", "mystic_burst", "improved_spirit", "spirit_snatch", "tankbuster", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "celeste",
+      "name": "Celeste",
+      "gun": 2,
+      "spirit": 2,
+      "threats": { "mob": 2 },
+      "paths": [
+        {
+          "name": "Способности",
+          "source": "Radiant Daggers и ульта Shining Wonder",
+          "damage": "spirit",
+          "core": ["extra_spirit", "mystic_expansion", "improved_spirit", "greater_expansion", "superior_cooldown", "boundless_spirit"]
+        },
+        {
+          "name": "Оружие",
+          "source": "очереди из оружия между способностями",
+          "damage": "gun",
+          "core": ["rapid_rounds", "ext_mag", "swift_striker", "bullet_lifesteal", "tesla_bullets", "lucky_shot"],
+          "note": "Запасной путь: ульту ослабили два патча подряд, оружие не трогали."
+        }
+      ]
+    },
+    {
+      "id": "danny",
+      "name": "Deadman Danny",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "cc": 1, "mob": 2, "fly": 1, "burst": 1 },
+      "paths": [
+        {
+          "name": "Ракеты с воздуха",
+          "source": "Strix Salvo и добивание Close The Deal",
+          "damage": "spirit",
+          "core": ["extra_spirit", "mystic_burst", "improved_spirit", "tankbuster", "superior_cooldown", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "doorman",
+      "name": "The Doorman",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "cc": 2, "lock": 1, "parry": 1 },
+      "paths": [
+        {
+          "name": "Тележка",
+          "source": "Luggage Cart об стену и ульта Hotel Guest",
+          "damage": "spirit",
+          "core": ["mystic_burst", "extra_charge", "mystic_expansion", "improved_spirit", "tankbuster", "superior_cooldown", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "drifter",
+      "name": "Drifter",
+      "gun": 2,
+      "spirit": 1,
+      "threats": { "heal": 1, "mob": 2, "melee": 1 },
+      "paths": [
+        {
+          "name": "Охота на одиночек",
+          "source": "выстрелы в упор и удары по изолированной цели",
+          "damage": "melee",
+          "core": ["melee_lifesteal", "close_quarters", "stalker", "bullet_lifesteal", "point_blank", "fortitude", "crushing_fists"]
+        }
+      ]
+    },
+    {
+      "id": "dynamo",
+      "name": "Dynamo",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "heal": 2, "cc": 2, "chan": 1, "lock": 1 },
+      "paths": [
+        {
+          "name": "Ульта на команду",
+          "source": "Kinetic Pulse и Singularity",
+          "damage": "spirit",
+          "core": ["extra_charge", "mystic_expansion", "improved_spirit", "greater_expansion", "superior_cooldown", "refresher"]
+        }
+      ]
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "gun": 3,
+      "spirit": 1,
+      "threats": {},
+      "paths": [
+        {
+          "name": "Оружие",
+          "source": "стрельба, пока призывы держат врага",
+          "damage": "gun",
+          "core": ["restorative_shot", "rapid_rounds", "swift_striker", "toxic_bullets", "tesla_bullets", "lucky_shot"]
+        }
+      ]
+    },
+    {
+      "id": "talon",
+      "name": "Grey Talon",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "cc": 1, "fly": 1, "burst": 1 },
+      "paths": [
+        {
+          "name": "Charged Shot",
+          "source": "Charged Shot с дальней дистанции",
+          "damage": "spirit",
+          "core": ["extra_charge", "mystic_burst", "improved_spirit", "enchanters_emblem", "tankbuster", "spirit_burn", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "haze",
+      "name": "Haze",
+      "gun": 3,
+      "spirit": 0,
+      "threats": { "cc": 1, "mob": 1, "chan": 1, "allin": 1 },
+      "paths": [
+        {
+          "name": "Оружие",
+          "source": "стрельба со стаками Fixation и ульта Bullet Dance",
+          "damage": "gun",
+          "core": ["rapid_rounds", "restorative_shot", "swift_striker", "bullet_lifesteal", "burst_fire", "ricochet", "lucky_shot"]
+        }
+      ]
+    },
+    {
+      "id": "holliday",
+      "name": "Holliday",
+      "gun": 2,
+      "spirit": 2,
+      "threats": { "cc": 2, "mob": 2, "lock": 1 },
+      "paths": [
+        {
+          "name": "Бочки",
+          "source": "Powder Keg и прыжки с Bounce Pad",
+          "damage": "spirit",
+          "core": ["extra_charge", "mystic_burst", "improved_spirit", "rapid_recharge", "tankbuster", "boundless_spirit"]
+        },
+        {
+          "name": "Хедшоты",
+          "source": "выстрелы в голову из револьвера",
+          "damage": "gun",
+          "core": ["headshot_booster", "restorative_shot", "long_range", "headhunter", "crippling_headshot", "glass_cannon"],
+          "note": "Работает, если уверенно попадаешь в голову. Crippling Headshot и Glass Cannon усилили 30.10."
+        }
+      ]
+    },
+    {
+      "id": "infernus",
+      "name": "Infernus",
+      "gun": 2,
+      "spirit": 2,
+      "threats": { "heal": 1, "cc": 1, "mob": 1, "dot": 1 },
+      "paths": [
+        {
+          "name": "Поджог",
+          "source": "Napalm, Flame Dash и Concussive Combustion",
+          "damage": "spirit",
+          "core": ["extra_spirit", "improved_spirit", "spirit_lifesteal", "mystic_vuln", "superior_duration", "escalating_exposure", "boundless_spirit"],
+          "note": "Совет патча: Napalm и Concussive Combustion усилили именно через дух, Spirit Lifesteal тоже подняли."
+        },
+        {
+          "name": "Оружие",
+          "source": "стрельба, которая разгоняет Afterburn",
+          "damage": "gun",
+          "core": ["rapid_rounds", "restorative_shot", "swift_striker", "bullet_lifesteal", "toxic_bullets", "ricochet"]
+        }
+      ]
+    },
+    {
+      "id": "ivy",
+      "name": "Ivy",
+      "gun": 2,
+      "spirit": 1,
+      "threats": { "heal": 1, "cc": 1, "fly": 1 },
+      "paths": [
+        {
+          "name": "Оружие",
+          "source": "стрельба с большим магазином",
+          "damage": "gun",
+          "core": ["ext_mag", "rapid_rounds", "titanic_mag", "swift_striker", "tesla_bullets", "lucky_shot"]
+        },
+        {
+          "name": "Kudzu Bomb",
+          "source": "Kudzu Bomb по площади",
+          "damage": "spirit",
+          "core": ["extra_charge", "mystic_expansion", "improved_spirit", "mystic_slow", "rapid_recharge", "escalating_exposure"]
+        }
+      ]
+    },
+    {
+      "id": "kelvin",
+      "name": "Kelvin",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "heal": 2, "cc": 1, "lock": 1, "tank": 1 },
+      "paths": [
+        {
+          "name": "Заморозка",
+          "source": "Frost Grenade и Arctic Beam",
+          "damage": "spirit",
+          "core": ["extra_charge", "extra_spirit", "improved_spirit", "superior_cooldown", "rapid_recharge", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "geist",
+      "name": "Lady Geist",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "heal": 2, "burst": 1 },
+      "paths": [
+        {
+          "name": "Essence Bomb",
+          "source": "Essence Bomb, 1-я способность",
+          "damage": "spirit",
+          "core": ["mystic_burst", "mystic_expansion", "extra_spirit", "improved_spirit", "spirit_lifesteal", "tankbuster", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "lash",
+      "name": "Lash",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "cc": 2, "mob": 2, "lock": 1, "burst": 1, "parry": 1 },
+      "paths": [
+        {
+          "name": "Ground Strike",
+          "source": "Ground Strike с высоты",
+          "damage": "spirit",
+          "core": ["mystic_burst", "extra_charge", "extra_stamina", "improved_spirit", "tankbuster", "superior_cooldown", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "mcginnis",
+      "name": "McGinnis",
+      "gun": 2,
+      "spirit": 2,
+      "threats": { "heal": 1, "cc": 1, "chan": 1 },
+      "paths": [
+        {
+          "name": "Турели",
+          "source": "Mini Turret, несколько штук сразу",
+          "damage": "spirit",
+          "core": ["extra_charge", "mystic_expansion", "improved_spirit", "mystic_vuln", "rapid_recharge", "escalating_exposure"],
+          "note": "Совет патча: турели теперь бьют крипов на 65% урона вместо 50%."
+        },
+        {
+          "name": "Оружие",
+          "source": "раскрученный пулемёт",
+          "damage": "gun",
+          "core": ["ext_mag", "rapid_rounds", "titanic_mag", "bullet_lifesteal", "tesla_bullets", "lucky_shot"]
+        }
+      ]
+    },
+    {
+      "id": "mina",
+      "name": "Mina",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "cc": 1, "mob": 2, "dot": 1, "burst": 1 },
+      "paths": [
+        {
+          "name": "Укусы",
+          "source": "Rake и стаки Love Bites",
+          "damage": "spirit",
+          "core": ["extra_spirit", "mystic_burst", "improved_spirit", "tankbuster", "superior_cooldown", "spirit_burn"]
+        }
+      ]
+    },
+    {
+      "id": "mirage",
+      "name": "Mirage",
+      "gun": 2,
+      "spirit": 2,
+      "threats": { "heal": 1, "cc": 1, "mob": 1, "dot": 1 },
+      "paths": [
+        {
+          "name": "Метки пулями",
+          "source": "стрельба, которая копит Djinn's Mark",
+          "damage": "gun",
+          "core": ["restorative_shot", "rapid_rounds", "mystic_vuln", "swift_striker", "toxic_bullets", "escalating_exposure", "spiritual_overflow"]
+        }
+      ]
+    },
+    {
+      "id": "mo",
+      "name": "Mo & Krill",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "heal": 1, "cc": 2, "mob": 1, "chan": 1, "lock": 1, "tank": 1 },
+      "paths": [
+        {
+          "name": "Танк-инициатор",
+          "source": "Burrow под врагов и захват Combo",
+          "damage": "spirit",
+          "core": ["extra_health", "mystic_burst", "spirit_lifesteal", "torment_pulse", "fortitude", "colossus"],
+          "note": "Совет патча: урон духом порезали, а здоровье от Combo и лечение от Scorn подняли."
+        },
+        {
+          "name": "Урон духом",
+          "source": "Scorn и Burrow",
+          "damage": "spirit",
+          "core": ["extra_spirit", "mystic_burst", "improved_spirit", "tankbuster", "superior_cooldown", "boundless_spirit"],
+          "note": "Ослаблен 30.10: дух за буст 1,1 → 0,6 и −10% урона способностей."
+        }
+      ]
+    },
+    {
+      "id": "harrow",
+      "name": "Nurse Harrow",
+      "gun": 2,
+      "spirit": 1,
+      "threats": { "heal": 2, "cc": 2, "chan": 1, "lock": 1, "dot": 1 },
+      "paths": [
+        {
+          "name": "Лечащие выстрелы",
+          "source": "Healing Needles: твоё оружие лечит союзников",
+          "damage": "gun",
+          "core": ["ext_mag", "restorative_shot", "titanic_mag", "healing_booster", "improved_spirit", "tesla_bullets", "healing_tempo"]
+        }
+      ]
+    },
+    {
+      "id": "paige",
+      "name": "Paige",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "cc": 2, "lock": 1 },
+      "paths": [
+        {
+          "name": "Заклинания издалека",
+          "source": "способности с большой дальностью и радиусом",
+          "damage": "spirit",
+          "core": ["mystic_expansion", "extra_charge", "extra_spirit", "improved_spirit", "greater_expansion", "superior_cooldown", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "paradox",
+      "name": "Paradox",
+      "gun": 2,
+      "spirit": 2,
+      "threats": { "cc": 2, "lock": 1, "burst": 1 },
+      "paths": [
+        {
+          "name": "Kinetic Carbine",
+          "source": "Kinetic Carbine, 3-я способность: один заряженный выстрел",
+          "damage": "spirit",
+          "core": ["mystic_burst", "extra_spirit", "improved_spirit", "tankbuster", "superior_cooldown", "glass_cannon"],
+          "note": "Выстрел бьёт духом, а его сила растёт от урона оружия. Поэтому в ядре дух плюс Glass Cannon в конце."
+        },
+        {
+          "name": "Swap-инициатор",
+          "source": "ульта Paradoxical Swap и Pulse Grenade",
+          "damage": "spirit",
+          "core": ["mystic_burst", "mystic_expansion", "improved_spirit", "superior_cooldown", "tankbuster", "refresher"],
+          "note": "Перезарядку Swap снизили со 110 до 95 с. Бери, если команде нужен тот, кто выдёргивает врага."
+        }
+      ]
+    },
+    {
+      "id": "pocket",
+      "name": "Pocket",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "mob": 2, "dot": 1, "burst": 1 },
+      "paths": [
+        {
+          "name": "Залп и проклятие",
+          "source": "Barrage и ульта Affliction",
+          "damage": "spirit",
+          "core": ["mystic_burst", "extra_spirit", "improved_spirit", "tankbuster", "superior_cooldown", "spirit_burn"]
+        }
+      ]
+    },
+    {
+      "id": "ratking",
+      "name": "Rat King",
+      "gun": 2,
+      "spirit": 1,
+      "threats": { "heal": 1, "cc": 1, "mob": 1, "tank": 1, "dot": 1 },
+      "paths": [
+        {
+          "name": "Живучий фронт",
+          "source": "стрельба вблизи под барьером Royal Pestments",
+          "damage": "gun",
+          "core": ["extra_health", "ext_mag", "battle_vest", "fortitude", "spirit_resilience", "juggernaut", "colossus"]
+        }
+      ]
+    },
+    {
+      "id": "rem",
+      "name": "Rem",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "cc": 2, "lock": 1 },
+      "paths": [
+        {
+          "name": "Поддержка",
+          "source": "помощь союзникам и ульта Naptime",
+          "damage": "spirit",
+          "core": ["extra_charge", "extra_spirit", "improved_spirit", "rapid_recharge", "superior_cooldown", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "seven",
+      "name": "Seven",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "cc": 1, "chan": 1 },
+      "paths": [
+        {
+          "name": "Молнии",
+          "source": "Lightning Ball и ульта Storm Cloud",
+          "damage": "spirit",
+          "core": ["extra_spirit", "mystic_vuln", "improved_spirit", "superior_duration", "escalating_exposure", "boundless_spirit"]
+        },
+        {
+          "name": "Оружие",
+          "source": "стрельба под Power Surge",
+          "damage": "gun",
+          "core": ["monster_rounds", "rapid_rounds", "swift_striker", "bullet_lifesteal", "tesla_bullets", "ricochet"]
+        }
+      ]
+    },
+    {
+      "id": "shiv",
+      "name": "Shiv",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "heal": 1, "mob": 2, "dot": 1 },
+      "paths": [
+        {
+          "name": "Ножи",
+          "source": "Serrated Knives и Slice and Dice",
+          "damage": "spirit",
+          "core": ["extra_charge", "restorative_shot", "improved_spirit", "spirit_lifesteal", "superior_cooldown", "escalating_exposure"]
+        }
+      ]
+    },
+    {
+      "id": "silver",
+      "name": "Silver",
+      "gun": 2,
+      "spirit": 1,
+      "threats": { "heal": 1, "cc": 1, "mob": 1, "melee": 1, "tank": 1 },
+      "paths": [
+        {
+          "name": "Оборотень",
+          "source": "форма волка и Go For The Throat",
+          "damage": "melee",
+          "core": ["melee_lifesteal", "close_quarters", "slowing_bullets", "point_blank", "fortitude", "crushing_fists"]
+        }
+      ]
+    },
+    {
+      "id": "sinclair",
+      "name": "Sinclair",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "cc": 2, "mob": 1 },
+      "paths": [
+        {
+          "name": "Vexing Bolt",
+          "source": "Vexing Bolt по дуге",
+          "damage": "spirit",
+          "core": ["extra_charge", "mystic_burst", "improved_spirit", "rapid_recharge", "enchanters_emblem", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "solomon",
+      "name": "Solomon",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "cc": 2 },
+      "paths": [
+        {
+          "name": "Фигуры",
+          "source": "Setup Bishop и ульта Develop Queen",
+          "damage": "spirit",
+          "core": ["extra_spirit", "mystic_expansion", "improved_spirit", "mystic_slow", "superior_cooldown", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "venator",
+      "name": "Venator",
+      "gun": 3,
+      "spirit": 1,
+      "threats": { "heal": 1, "cc": 1 },
+      "paths": [
+        {
+          "name": "Арбалет",
+          "source": "точные выстрелы из арбалета",
+          "damage": "gun",
+          "core": ["restorative_shot", "battle_vest", "bullet_lifesteal", "headhunter", "silencer", "crippling_headshot"]
+        }
+      ]
+    },
+    {
+      "id": "victor",
+      "name": "Victor",
+      "gun": 1,
+      "spirit": 3,
+      "threats": { "heal": 2, "tank": 1 },
+      "paths": [
+        {
+          "name": "Аура",
+          "source": "Aura of Suffering в гуще боя",
+          "damage": "spirit",
+          "core": ["extra_spirit", "spirit_lifesteal", "healing_booster", "improved_spirit", "fortitude", "escalating_exposure", "leech"]
+        }
+      ]
+    },
+    {
+      "id": "vindicta",
+      "name": "Vindicta",
+      "gun": 3,
+      "spirit": 1,
+      "threats": { "cc": 1, "fly": 1, "dot": 1 },
+      "paths": [
+        {
+          "name": "Снайпер",
+          "source": "выстрелы издалека и ульта Assassinate",
+          "damage": "gun",
+          "core": ["headshot_booster", "restorative_shot", "long_range", "sharpshooter", "crippling_headshot", "glass_cannon"]
+        },
+        {
+          "name": "Вороны",
+          "source": "Crow Familiar и Stake",
+          "damage": "spirit",
+          "core": ["extra_charge", "extra_spirit", "improved_spirit", "rapid_recharge", "tankbuster", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "violet",
+      "name": "Violet",
+      "gun": 2,
+      "spirit": 2,
+      "threats": { "cc": 1, "mob": 2, "chan": 1 },
+      "paths": [
+        {
+          "name": "Наброски",
+          "source": "Still Life и усиленные пули Living Ink",
+          "damage": "spirit",
+          "core": ["extra_charge", "extra_spirit", "improved_spirit", "rapid_recharge", "superior_cooldown", "spirit_burn"]
+        }
+      ]
+    },
+    {
+      "id": "viscous",
+      "name": "Viscous",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "heal": 1, "cc": 1, "mob": 1, "tank": 1 },
+      "paths": [
+        {
+          "name": "Брызги и кулак",
+          "source": "Splatter и Puddle Punch",
+          "damage": "spirit",
+          "core": ["mystic_expansion", "mystic_burst", "extra_charge", "improved_spirit", "tankbuster", "boundless_spirit"]
+        }
+      ]
+    },
+    {
+      "id": "vyper",
+      "name": "Vyper",
+      "gun": 3,
+      "spirit": 1,
+      "threats": { "cc": 1, "mob": 1, "dot": 1, "allin": 1 },
+      "paths": [
+        {
+          "name": "Оружие в упор",
+          "source": "стрельба на ближней дистанции",
+          "damage": "gun",
+          "core": ["rapid_rounds", "close_quarters", "swift_striker", "bullet_lifesteal", "burst_fire", "lucky_shot"]
+        }
+      ]
+    },
+    {
+      "id": "warden",
+      "name": "Warden",
+      "gun": 2,
+      "spirit": 1,
+      "threats": { "heal": 1, "cc": 2, "tank": 1 },
+      "paths": [
+        {
+          "name": "Оружие и Last Stand",
+          "source": "стрельба и ульта Last Stand в толпе",
+          "damage": "gun",
+          "core": ["ext_mag", "quicksilver_reload", "titanic_mag", "battle_vest", "fortitude", "juggernaut"]
+        }
+      ]
+    },
+    {
+      "id": "wraith",
+      "name": "Wraith",
+      "gun": 3,
+      "spirit": 1,
+      "threats": { "cc": 1, "mob": 1, "lock": 1, "allin": 1 },
+      "paths": [
+        {
+          "name": "Оружие",
+          "source": "стрельба под Full Auto",
+          "damage": "gun",
+          "core": ["rapid_rounds", "monster_rounds", "quicksilver_reload", "bullet_lifesteal", "surge_of_power", "lucky_shot"]
+        }
+      ]
+    },
+    {
+      "id": "yamato",
+      "name": "Yamato",
+      "gun": 1,
+      "spirit": 2,
+      "threats": { "heal": 1, "mob": 2, "melee": 1, "burst": 1 },
+      "paths": [
+        {
+          "name": "Power Slash",
+          "source": "заряженный Power Slash",
+          "damage": "spirit",
+          "core": ["spirit_strike", "mystic_burst", "extra_spirit", "improved_spirit", "spirit_snatch", "tankbuster", "boundless_spirit"]
+        }
+      ]
+    }
+  ],
+  "items": {
+    "restorative_shot": { "name": "Restorative Shot", "tab": "weapon", "price": 800, "desc": "Урон оружия и периодическое лечение от попадания" },
+    "rapid_rounds": { "name": "Rapid Rounds", "tab": "weapon", "price": 800, "desc": "Скорострельность" },
+    "hv_rounds": { "name": "High-Velocity Rounds", "tab": "weapon", "price": 800, "desc": "Скорость пули и урон оружия" },
+    "ext_mag": { "name": "Extended Magazine", "tab": "weapon", "price": 800, "desc": "Больше патронов и урона оружия" },
+    "monster_rounds": { "name": "Monster Rounds", "tab": "weapon", "price": 800, "desc": "Урон по крипам, быстрее фарм" },
+    "close_quarters": { "name": "Close Quarters", "tab": "weapon", "price": 800, "desc": "Урон оружия вблизи" },
+    "headshot_booster": { "name": "Headshot Booster", "tab": "weapon", "price": 800, "desc": "Добавка урона к выстрелам в голову" },
+    "swift_striker": { "name": "Swift Striker", "tab": "weapon", "price": 1600, "desc": "Больше скорострельности" },
+    "titanic_mag": { "name": "Titanic Magazine", "tab": "weapon", "price": 1600, "desc": "Большой магазин и урон оружия" },
+    "melee_charge": { "name": "Melee Charge", "tab": "weapon", "price": 1600, "desc": "Сильный удар бьёт дальше и больнее" },
+    "stalker": { "name": "Stalker", "tab": "weapon", "price": 1600 },
+    "long_range": { "name": "Long Range", "tab": "weapon", "price": 1600, "desc": "Урон оружия на дальней дистанции" },
+    "slowing_bullets": { "name": "Slowing Bullets", "tab": "weapon", "price": 1600, "desc": "Пули замедляют цель и укорачивают её рывки" },
+    "burst_fire": { "name": "Burst Fire", "tab": "weapon", "price": 3200, "desc": "Всплеск скорострельности при попадании по герою" },
+    "toxic_bullets": { "name": "Toxic Bullets", "tab": "weapon", "price": 3200, "desc": "Пули вешают кровотечение от макс. здоровья и режут лечение на 40%" },
+    "tesla_bullets": { "name": "Tesla Bullets", "tab": "weapon", "price": 3200, "desc": "Пули бьют цепной молнией" },
+    "sharpshooter": { "name": "Sharpshooter", "tab": "weapon", "price": 3200, "desc": "Урон на дальней дистанции" },
+    "headhunter": { "name": "Headhunter", "tab": "weapon", "price": 3200, "desc": "Сильные выстрелы в голову" },
+    "point_blank": { "name": "Point Blank", "tab": "weapon", "price": 3200, "desc": "Урон оружия в упор и замедление цели" },
+    "armor_piercer": { "name": "Armor Piercer", "tab": "weapon", "price": 6400, "desc": "60% пуль игнорируют сопротивление пулям и барьеры" },
+    "crippling_headshot": { "name": "Crippling Headshot", "tab": "weapon", "price": 6400, "desc": "Хедшоты режут сопротивления цели на 16% и лечение на 40%" },
+    "glass_cannon": { "name": "Glass Cannon", "tab": "weapon", "price": 6400, "desc": "+85% урона оружия ценой здоровья" },
+    "lucky_shot": { "name": "Lucky Shot", "tab": "weapon", "price": 6400, "desc": "Шанс на усиленный выстрел с замедлением" },
+    "ricochet": { "name": "Ricochet", "tab": "weapon", "price": 6400, "desc": "Пули отскакивают в соседних врагов" },
+    "silencer": { "name": "Silencer", "tab": "weapon", "price": 6400, "desc": "Пули накапливают немоту, цель наносит на 25% меньше урона духом" },
+    "crushing_fists": { "name": "Crushing Fists", "tab": "weapon", "price": 6400, "desc": "Усиливает удары ближнего боя" },
+    "spiritual_overflow": { "name": "Spiritual Overflow", "tab": "weapon", "price": 6400, "desc": "Стрельба по героям даёт скорострельность и силу духа" },
+    "extra_health": { "name": "Extra Health", "tab": "vitality", "price": 800, "desc": "Здоровье" },
+    "extra_regen": { "name": "Extra Regen", "tab": "vitality", "price": 800, "desc": "Реген здоровья на линии" },
+    "extra_stamina": { "name": "Extra Stamina", "tab": "vitality", "price": 800, "desc": "Ещё один рывок" },
+    "melee_lifesteal": { "name": "Melee Lifesteal", "tab": "vitality", "price": 800, "desc": "Удары ближнего боя лечат" },
+    "rebuttal": { "name": "Rebuttal", "tab": "vitality", "price": 800, "desc": "Парирование перезаряжается быстрее и лечит на заблокированный урон" },
+    "sprint_boots": { "name": "Sprint Boots", "tab": "vitality", "price": 800, "desc": "Скорость бега" },
+    "battle_vest": { "name": "Battle Vest", "tab": "vitality", "price": 1600, "desc": "+18% сопротивления пулям и +22% урона оружия, пока здоровья много" },
+    "bullet_lifesteal": { "name": "Bullet Lifesteal", "tab": "vitality", "price": 1600, "desc": "15% вампиризма от пуль и урон оружия" },
+    "debuff_reducer": { "name": "Debuff Reducer", "tab": "vitality", "price": 1600, "desc": "Все дебаффы на тебе длятся на 25% меньше" },
+    "enchanters_emblem": { "name": "Enchanter's Emblem", "tab": "vitality", "price": 1600, "desc": "+18% сопротивления духу и сила духа" },
+    "healbane": { "name": "Healbane", "tab": "vitality", "price": 1600, "desc": "Твой урон духом режет лечение цели на 35% на 8 секунд" },
+    "healing_booster": { "name": "Healing Booster", "tab": "vitality", "price": 1600, "desc": "Усиливает лечение" },
+    "spirit_lifesteal": { "name": "Spirit Lifesteal", "tab": "vitality", "price": 1600, "desc": "15% вампиризма от способностей и сила духа" },
+    "spirit_shielding": { "name": "Spirit Shielding", "tab": "vitality", "price": 1600, "desc": "+15% сопротивления духу и барьер при всплеске урона духом" },
+    "weapon_shielding": { "name": "Weapon Shielding", "tab": "vitality", "price": 1600, "desc": "+18% сопротивления пулям и барьер при всплеске урона пулями" },
+    "bullet_resilience": { "name": "Bullet Resilience", "tab": "vitality", "price": 3200, "desc": "+35% сопротивления пулям, ещё больше при низком здоровье" },
+    "counterspell": { "name": "Counterspell", "tab": "vitality", "price": 3200, "desc": "Удачное парирование блокирует вражескую способность" },
+    "dispel_magic": { "name": "Dispel Magic", "tab": "vitality", "price": 3200, "active": true, "desc": "Снимает все обычные дебаффы, лечит и ускоряет" },
+    "fortitude": { "name": "Fortitude", "tab": "vitality", "price": 3200, "desc": "Большой запас здоровья и реген вне боя" },
+    "lifestrike": { "name": "Lifestrike", "tab": "vitality", "price": 3200, "desc": "Удар ближнего боя лечит и замедляет" },
+    "metal_skin": { "name": "Metal Skin", "tab": "vitality", "price": 3200, "active": true, "desc": "5 секунд неуязвимости к пулям" },
+    "spirit_resilience": { "name": "Spirit Resilience", "tab": "vitality", "price": 3200, "desc": "+30% сопротивления духу, ещё больше при низком здоровье" },
+    "stamina_mastery": { "name": "Stamina Mastery", "tab": "vitality", "price": 3200, "desc": "Больше выносливости" },
+    "colossus": { "name": "Colossus", "tab": "vitality", "price": 6400, "active": true, "desc": "На время делает тебя большим и живучим" },
+    "indomitable": { "name": "Indomitable", "tab": "vitality", "price": 6400, "desc": "Сама снимает следующий стан, сон, немоту, корень или страх и даёт барьер" },
+    "unstoppable": { "name": "Unstoppable", "tab": "vitality", "price": 6400, "active": true, "desc": "5,5 секунды иммунитета к контролю, жать заранее" },
+    "inhibitor": { "name": "Inhibitor", "tab": "vitality", "price": 6400, "desc": "Пули режут урон цели на 30% и лечение на 40%" },
+    "juggernaut": { "name": "Juggernaut", "tab": "vitality", "price": 6400, "desc": "Кто стреляет в тебя, теряет 40% скорострельности; +15 регена" },
+    "leech": { "name": "Leech", "tab": "vitality", "price": 6400, "desc": "30% вампиризма от пуль и от способностей" },
+    "phantom_strike": { "name": "Phantom Strike", "tab": "vitality", "price": 6400, "active": true, "desc": "Телепорт к врагу, сбивает на землю и обезоруживает" },
+    "spellbreaker": { "name": "Spellbreaker", "tab": "vitality", "price": 6400, "desc": "Режет каждый крупный удар духом на 65%, плюс сопротивления" },
+    "healing_tempo": { "name": "Healing Tempo", "tab": "vitality", "price": 6400, "desc": "Лечение союзников ускоряет тебя и их" },
+    "extra_charge": { "name": "Extra Charge", "tab": "spirit", "price": 800, "desc": "Дополнительный заряд способности" },
+    "extra_spirit": { "name": "Extra Spirit", "tab": "spirit", "price": 800, "desc": "Сила духа" },
+    "mystic_burst": { "name": "Mystic Burst", "tab": "spirit", "price": 800, "desc": "Добавка урона к сильному попаданию способностью" },
+    "mystic_expansion": { "name": "Mystic Expansion", "tab": "spirit", "price": 800, "desc": "Дальность и радиус одной способности" },
+    "mystic_regen": { "name": "Mystic Regeneration", "tab": "spirit", "price": 800, "desc": "Реген после урона способностями" },
+    "spirit_strike": { "name": "Spirit Strike", "tab": "spirit", "price": 800, "desc": "Удар ближнего боя бьёт духом и снижает сопротивление духу" },
+    "improved_spirit": { "name": "Improved Spirit", "tab": "spirit", "price": 1600, "desc": "Много силы духа" },
+    "mystic_vuln": { "name": "Mystic Vulnerability", "tab": "spirit", "price": 1600, "desc": "Твои способности снижают сопротивление духу у цели" },
+    "mystic_slow": { "name": "Mystic Slow", "tab": "spirit", "price": 1600, "desc": "Твой урон духом замедляет цель на 24%" },
+    "quicksilver_reload": { "name": "Quicksilver Reload", "tab": "spirit", "price": 1600, "desc": "Способность перезаряжает оружие" },
+    "slowing_hex": { "name": "Slowing Hex", "tab": "spirit", "price": 1600, "active": true, "desc": "Замедляет и на 3,5 секунды отключает рывки и мобильные способности" },
+    "suppressor": { "name": "Suppressor", "tab": "spirit", "price": 1600, "desc": "Твой урон духом режет скорострельность цели на 28%" },
+    "decay": { "name": "Decay", "tab": "spirit", "price": 3200, "active": true, "desc": "Кровотечение на 12 секунд и минус 55% лечения одной цели" },
+    "disarming_hex": { "name": "Disarming Hex", "tab": "spirit", "price": 3200, "active": true, "desc": "Цель 4,25 секунды не может стрелять" },
+    "greater_expansion": { "name": "Greater Expansion", "tab": "spirit", "price": 3200, "desc": "Большой радиус способности" },
+    "knockdown": { "name": "Knockdown", "tab": "spirit", "price": 3200, "active": true, "desc": "Через 2 секунды станит цель и роняет её на землю" },
+    "rapid_recharge": { "name": "Rapid Recharge", "tab": "spirit", "price": 3200, "desc": "Заряды способностей восстанавливаются быстрее" },
+    "spirit_snatch": { "name": "Spirit Snatch", "tab": "spirit", "price": 3200, "desc": "Удар ближнего боя крадёт силу духа" },
+    "superior_cooldown": { "name": "Superior Cooldown", "tab": "spirit", "price": 3200, "desc": "Способности перезаряжаются быстрее" },
+    "superior_duration": { "name": "Superior Duration", "tab": "spirit", "price": 3200, "desc": "Способности действуют дольше" },
+    "surge_of_power": { "name": "Surge of Power", "tab": "spirit", "price": 3200, "desc": "Способность даёт всплеск скорострельности" },
+    "tankbuster": { "name": "Tankbuster", "tab": "spirit", "price": 3200, "desc": "Сильное попадание способностью снимает ещё 7,5% текущего здоровья" },
+    "torment_pulse": { "name": "Torment Pulse", "tab": "spirit", "price": 3200, "desc": "Периодический урон по врагам рядом и защита от ближнего боя" },
+    "boundless_spirit": { "name": "Boundless Spirit", "tab": "spirit", "price": 6400, "desc": "Очень много силы духа" },
+    "escalating_exposure": { "name": "Escalating Exposure", "tab": "spirit", "price": 6400, "desc": "Каждый удар духом усиливает следующий по той же цели" },
+    "spirit_burn": { "name": "Spirit Burn", "tab": "spirit", "price": 6400, "desc": "Сильное комбо поджигает цель и режет её лечение на 70%" },
+    "mystic_reverb": { "name": "Mystic Reverb", "tab": "spirit", "price": 6400, "desc": "Усиливает одну выбранную способность" },
+    "echo_shard": { "name": "Echo Shard", "tab": "spirit", "price": 6400, "active": true, "desc": "Сбрасывает перезарядку последней обычной способности" },
+    "refresher": { "name": "Refresher", "tab": "spirit", "price": 6400, "active": true, "desc": "Сбрасывает перезарядку всех способностей, включая ульту" }
+  },
+  "filler": {
+    "gun": {
+      "lane": ["restorative_shot", "rapid_rounds", "ext_mag", "extra_regen", "monster_rounds"],
+      "mid": ["swift_striker", "bullet_lifesteal", "burst_fire", "fortitude", "tesla_bullets", "headhunter", "titanic_mag", "long_range"],
+      "late": ["glass_cannon", "lucky_shot", "leech", "crippling_headshot"]
+    },
+    "spirit": {
+      "lane": ["extra_spirit", "mystic_burst", "extra_regen", "extra_stamina", "extra_charge"],
+      "mid": ["improved_spirit", "spirit_lifesteal", "mystic_vuln", "superior_cooldown", "tankbuster", "fortitude", "rapid_recharge", "enchanters_emblem"],
+      "late": ["boundless_spirit", "escalating_exposure", "mystic_reverb", "leech"]
+    },
+    "melee": {
+      "lane": ["melee_lifesteal", "close_quarters", "extra_stamina", "spirit_strike", "extra_health"],
+      "mid": ["melee_charge", "bullet_lifesteal", "lifestrike", "fortitude", "spirit_snatch", "stamina_mastery", "point_blank", "spirit_resilience"],
+      "late": ["crushing_fists", "colossus", "leech", "phantom_strike"]
+    }
+  },
+  "hero_patches": {
+    "abrams": [
+      { "date": "30.10", "change": 1, "text": "Урон оружия +5%. Siphon Life T3: +18 → +22 урона в секунду.", "build": "Siphon Life до 3-го уровня теперь даёт больше." }
+    ],
+    "apollo": [
+      { "date": "30.10", "change": 1, "text": "Riposte: отключение цели после удара эфесом 0,8 → 1,5 с." },
+      { "date": "04.11", "change": 1, "text": "Riposte ещё и обезоруживает цель. Itani Lo Sahn T3: +50% → +60% урона.", "build": "Комбо усиливают два патча подряд: все души в урон способностей." }
+    ],
+    "baba": [
+      { "date": "30.10", "change": -1, "text": "Threadsap держит украденный дух 16 с вместо 22. Baba's Brew тикает реже." },
+      {
+        "date": "04.11",
+        "change": -1,
+        "text": "Сопротивление духу и урон в ближнем бою ниже. Baba's Brew: множитель духа 0,15 → 0,13.",
+        "build": "Ослаблена дважды, Radiant Regeneration тоже порезали: реген бери через Spirit Lifesteal."
+      }
+    ],
+    "billy": [
+      {
+        "date": "30.10",
+        "change": 1,
+        "text": "Rising Ram T3: +15% макс. здоровья на 20 с (было +10% на 16 с). Blasted: перезарядка 27 → 25 с.",
+        "build": "Rising Ram на 3-м уровне делает тебя заметно толще в драке."
+      }
+    ],
+    "calico": [
+      { "date": "30.10", "change": 1, "text": "Leaping Slash T3: +60 → +90 урона. Ava T3 длится 8 с вместо 6.", "build": "Leaping Slash на 3-м уровне стал главным ударом." }
+    ],
+    "celeste": [
+      { "date": "30.10", "change": -1, "text": "Shining Wonder: урон 140 → 125." },
+      {
+        "date": "04.11",
+        "change": -1,
+        "text": "Shining Wonder: перезарядка 160 → 170 с, замедление слабее. Radiant Daggers: дальность 30 → 25 м.",
+        "build": "Ульту ослабили дважды: не строй весь билд вокруг неё."
+      }
+    ],
+    "danny": [
+      {
+        "date": "04.11",
+        "change": -1,
+        "text": "Close The Deal: бонус по целям ниже половины здоровья +75% → +55%. Strix Salvo: множитель духа −8%. Chimera Mk1 лечит меньше.",
+        "build": "Добивать труднее: больше урона нужно внести до ульты."
+      }
+    ],
+    "doorman": [
+      { "date": "30.10", "change": 1, "text": "Luggage Cart T2: +75 → +90 урона об стену. T3: −15 → −18 с перезарядки.", "build": "Luggage Cart окупает очки навыков раньше." }
+    ],
+    "drifter": [
+      { "date": "30.10", "change": 1, "text": "Урон оружия +3%. Bloodscent T3: +11% → +12% урона. Eternal Night T3 длится дольше." }
+    ],
+    "graves": [
+      { "date": "30.10", "change": -1, "text": "Скорость бега 7 → 6,7. Урон пуль за буст −4%.", "build": "Поздняя стрельба чуть слабее, зато Toxic Bullets усилили до 40% антихила." }
+    ],
+    "talon": [
+      { "date": "30.10", "change": 1, "text": "Charged Shot: −2 с задержки заряда теперь на T2, а не на T3.", "build": "Charged Shot набирает темп раньше, заряды окупаются быстрее." }
+    ],
+    "infernus": [
+      { "date": "30.10", "change": 1, "text": "Napalm T2: вампиризм 15% → 20%. Concussive Combustion T3 получил множитель духа +0,4.", "build": "Усилен именно путь через дух." }
+    ],
+    "kelvin": [
+      { "date": "30.10", "change": 0, "text": "Frozen Shelter: перезарядка 185 → 190 с, но T1 даёт −30 с, а T2 режет врагам скорострельность на 20%." }
+    ],
+    "geist": [
+      {
+        "date": "30.10",
+        "change": 1,
+        "text": "Essence Bomb: множитель духа 1,22 → 1,35.",
+        "build": "Каждая единица духа даёт бомбе больше. По матчам Phantom+ её винрейт вырос на 5,1 п.п. за 5 дней после 04.11."
+      }
+    ],
+    "lash": [
+      { "date": "30.10", "change": 1, "text": "Grapple T3: +4 м к скорости прыжка.", "build": "Выше взлёт, сильнее Ground Strike." }
+    ],
+    "mcginnis": [
+      { "date": "30.10", "change": 1, "text": "Mini Turret: урон по крипам 50% → 65%. Здоровье за буст 9 → 10.", "build": "Турели быстрее чистят линию и лагеря." }
+    ],
+    "mirage": [
+      { "date": "30.10", "change": 0, "text": "Traveler: каст 2 → 3 с. T2 даёт −65 с перезарядки вместо барьера." }
+    ],
+    "mo": [
+      { "date": "30.10", "change": -1, "text": "Дух за буст 1,1 → 0,6. Урон духом всех способностей −10%. Урон пуль за буст +4%." },
+      {
+        "date": "04.11",
+        "change": 1,
+        "text": "Scorn лечит от героев 1,3x. Burrow: радиус +0,5 м. Combo: +50 здоровья за убийство (было 40).",
+        "build": "Урон порезали, живучесть подняли: путь танка сейчас сильнее."
+      }
+    ],
+    "harrow": [
+      { "date": "30.10", "change": -1, "text": "Урон оружия −10%. Healing Needles: лечение за выстрел 25 → 22, множитель духа 0,2 → 0,24." },
+      { "date": "04.11", "change": 1, "text": "Урон пуль +8%. Страх от Lurking Terrors копится 1,75 с вместо 2.", "build": "Лечение сильнее зависит от духа: один предмет на дух окупается." }
+    ],
+    "paige": [
+      { "date": "30.10", "change": 0, "text": "Базовый урон пуль 35 → 32, рост за буст 0,52 → 0,61." }
+    ],
+    "paradox": [
+      { "date": "30.10", "change": 1, "text": "Paradoxical Swap: перезарядка 110 → 95 с.", "build": "Ульта доступна чаще. Express Shot ослабили на 5%, а Glass Cannon подняли до +85% урона оружия." }
+    ],
+    "ratking": [
+      { "date": "30.10", "change": -1, "text": "Урон пуль −5%, рост −20%. Scrap Grenade: 70 → 60 урона. Rule, Ratannia!: подброс вдвое короче." },
+      { "date": "04.11", "change": 1, "text": "Патронов 24 → 26. Rule, Ratannia! T1 даёт −25 с перезарядки.", "build": "Урон вернули меньше, чем забрали: играй от живучести, Juggernaut как раз усилили." }
+    ],
+    "seven": [
+      { "date": "30.10", "change": 1, "text": "Static Charge T3: стан 0,9 → 1,1 с." }
+    ],
+    "shiv": [
+      {
+        "date": "30.10",
+        "change": 0,
+        "text": "Serrated Knives: урон с яростью 3,5% → 4% текущего здоровья. Альт-огонь −5% за буст.",
+        "build": "Ножи сильнее бьют по толстым. Healbane лечит за убийство 170 вместо 275, как сустейн он хуже."
+      }
+    ],
+    "silver": [
+      {
+        "date": "30.10",
+        "change": 1,
+        "text": "Реген 2,5 → 3. Go For The Throat теперь считает урон от Point Blank и Opening Rounds.",
+        "build": "Point Blank прямо усиливает Go For The Throat, и замедление ему продлили."
+      }
+    ],
+    "solomon": [
+      {
+        "date": "30.10",
+        "change": 0,
+        "text": "Оружие: базовый урон 30 → 25, хедшоты −20%. Setup Bishop: множитель духа клетки 0,64 → 0,85. Develop Queen 1,4 → 1,6. Rook Battery 1,3 → 0,9.",
+        "build": "Оружие порезали, Bishop и Queen берут от духа больше: все души в дух."
+      }
+    ],
+    "venator": [
+      { "date": "30.10", "change": 0, "text": "Ira Domini: урон кола 115 → 95, рост за буст 3 → 3,6.", "build": "Ульта слабее в начале и сильнее поздно." }
+    ],
+    "victor": [
+      { "date": "30.10", "change": 1, "text": "Aura of Suffering T3: +15% → +16% урона.", "build": "Spirit Lifesteal и Leech из его ядра усилили." }
+    ],
+    "violet": [
+      { "date": "30.10", "change": -1, "text": "Still Life: стан 1,0 → 0,9 с, реген слабее. Abstract Landscape: перезарядка 165 → 180 с." }
+    ],
+    "viscous": [
+      { "date": "30.10", "change": 1, "text": "Splatter T1: +36 → +45 урона. Рост урона альт-огня +5%." }
+    ],
+    "warden": [
+      { "date": "30.10", "change": 1, "text": "Alchemical Flask режет урон оружия на 30% (было 25%). Last Stand T2: +50 урона в секунду и −40 с перезарядки." }
+    ],
+    "wraith": [
+      {
+        "date": "30.10",
+        "change": -1,
+        "text": "Card Trick лечит 45 вместо 60. Project Mind: перезарядка 46 → 50 с.",
+        "build": "Сустейна от карт меньше: Bullet Lifesteal, усиленный до 15%, закрывает дыру."
+      }
+    ],
+    "yamato": [
+      { "date": "30.10", "change": 0, "text": "Power Slash: множитель духа +6%. Flying Slash: дальность 26 → 23 м. Shadow Transformation: перезарядка 160 с.", "build": "Урон сместился в Power Slash." }
+    ]
+  },
+  "item_patches": {
+    "toxic_bullets": { "change": 1, "text": "30.10: антихил 35% → 40%" },
+    "armor_piercer": { "change": 1, "text": "30.10: шанс 55% → 60%" },
+    "glass_cannon": { "change": 1, "text": "30.10: урон оружия 80% → 85%" },
+    "crippling_headshot": { "change": 1, "text": "30.10: антихил 35% → 40%" },
+    "decay": { "change": 1, "text": "30.10: антихил 50% → 55%" },
+    "battle_vest": { "change": 1, "text": "30.10: урон оружия 18% → 22%. По матчам Phantom+ после 04.11 винрейт с ним +4,5 п.п." },
+    "bullet_lifesteal": { "change": 1, "text": "30.10: вампиризм 13% → 15%, урон оружия 6% → 10%" },
+    "spirit_lifesteal": { "change": 1, "text": "30.10: вампиризм 13% → 15%, дух 6 → 8. По матчам после 04.11 винрейт с ним +1,9 п.п." },
+    "bullet_resilience": { "change": 1, "text": "30.10: сопротивление пулям 30% → 35%" },
+    "juggernaut": { "change": 1, "text": "30.10: реген +8 → +15" },
+    "leech": { "change": 1, "text": "30.10: вампиризм 28% → 30%" },
+    "torment_pulse": { "change": 1, "text": "30.10: защита от ближнего боя 18% → 22%" },
+    "spiritual_overflow": { "change": 1, "text": "30.10: дух 6 → 8" },
+    "point_blank": { "change": 1, "text": "30.10: замедление длится 2,5 с вместо 2" },
+    "echo_shard": { "change": 1, "text": "30.10: задержка после применения 0,5 → 0,2 с" },
+    "mystic_burst": { "change": 1, "text": "По матчам Phantom+ после 04.11 винрейт с ним +1,9 п.п." },
+    "monster_rounds": { "change": 1, "text": "По матчам Phantom+ после 04.11 винрейт с ним +1,9 п.п." },
+    "hv_rounds": { "change": -1, "text": "30.10: скорость пули 60% → 45%" },
+    "rebuttal": { "change": -1, "text": "30.10: ускорение парирования 1,75 → 1,25 с" },
+    "healbane": { "change": -1, "text": "30.10: лечение за убийство 275 → 170. 04.11: несколько Healbane в команде складываются хуже" },
+    "spirit_shielding": { "change": -1, "text": "30.10: сопротивление духу 18% → 15%" },
+    "mystic_regen": { "change": -1, "text": "По матчам Phantom+ после 04.11 винрейт с ним −2,5 п.п." },
+    "healing_booster": { "change": 0, "text": "30.10: реген вне боя +2, но обычный реген +3 убрали" }
+  }
+}
